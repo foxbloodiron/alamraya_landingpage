@@ -64,14 +64,14 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
+            <h1 class="text-uppercase section-heading">
               <strong>Selamat Datang!</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">CV. Alamraya Sebar Barokah membantu anda untuk membuat aplikasi website menggunakan framework Laravel. Hubungi kami untuk info selengkapnya.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            <p class="text-faded mb-5 description">CV. Alamraya Sebar Barokah membantu anda untuk membuat aplikasi website menggunakan framework Laravel. Hubungi kami untuk info selengkapnya.</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger sr-button" href="#about">Find Out More</a>
           </div>
         </div>
       </div>
@@ -83,8 +83,8 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Tentang CV. Alamraya Sebar Barokah</h2>
             <hr class="my-4">
-            <p class="mb-3">Merupakan metamorfasis dari pertumbuhan sebuah usaha jasa dan layanan berbasis teknologi informasi sejak tahun 2001 dengan nama CV. Surya Teknologi Informasi.</p><p class="mb-4"> CV. Alamraya Sebar Barokah yang didirikan sejak tahun 2010 membawa semangat baru untuk menjadi sebuah perusahaan yang mampu berperan aktif di tengah-tengah masyarakat dalam memberikan solusi di bidang Manajemen Finansial, Syariah Business Model, serta Teknologi Informasi.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">Contact</a>
+            <p class="mb-3 description">Merupakan metamorfasis dari pertumbuhan sebuah usaha jasa dan layanan berbasis teknologi informasi sejak tahun 2001 dengan nama CV. Surya Teknologi Informasi.</p><p class="mb-4 description"> CV. Alamraya Sebar Barokah yang didirikan sejak tahun 2010 membawa semangat baru untuk menjadi sebuah perusahaan yang mampu berperan aktif di tengah-tengah masyarakat dalam memberikan solusi di bidang Manajemen Finansial, Syariah Business Model, serta Teknologi Informasi.</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger sr-button" href="#contact">Contact</a>
           </div>
         </div>
       </div>
@@ -280,7 +280,7 @@
     <script src="{{asset('assets/vendor/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="{{asset('assets/js/creative.min.js')}}"></script>
+    <script src="{{asset('assets/js/creative.js')}}"></script>
 
   </body>
 

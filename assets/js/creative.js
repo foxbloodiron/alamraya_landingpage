@@ -8,7 +8,7 @@
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
 
-        $('.wrapper').animate({
+        $('html,body').animate({
           scrollTop: (target.offset().top - 56)
         }, 1000, "easeInOutExpo");
         return false;
@@ -26,14 +26,14 @@
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
-  $('.wrapper').scrollspy({
+  $('body').scrollspy({
     target: '#mainNav',
     offset: 57
   });
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($(".wrapper").offset().top > 100) {
+    if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
@@ -45,7 +45,7 @@
   $(window).scroll(navbarCollapse);
 
   // Scroll reveal calls
-  window.sr = ScrollReveal();
+  window.sr = ScrollReveal({reset: true});
 
   sr.reveal('.sr-icon-1', {
     delay: 200,
@@ -75,6 +75,14 @@
   });
   sr.reveal('.sr-contact-2', {
     delay: 400,
+    scale: 0
+  });
+  sr.reveal('.section-heading', {
+    delay: 100,
+    scale: 0
+  });
+  sr.reveal('.description', {
+    delay: 300,
     scale: 0
   });
 
