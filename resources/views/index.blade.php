@@ -23,7 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="{{asset('assets/css/creative.css')}}" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/icon.png')}}" />
     <style type="text/css">
       #mainNav .navbar-brand{
         text-transform: none;
@@ -37,7 +37,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img width="100" height="50" src="img/alamraya.png"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img width="100" height="50" src="{{asset('assets/img/alamraya.png')}}"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -264,7 +264,7 @@
 
      <footer class="footer text-center mt-4 mb-4">
       <div class="container">
-        <span><img src="img/alamraya.png" alt="" height="100"></span>
+        <span><img src="{{asset('assets/img/alamraya.png')}}" alt="" height="100"></span>
         </br>
         <p class="text-muted small" style="margin-top: 10px;font-family: 'calibri';">Copyright &copy; Alamraya Sebar Barokah</p>
       </div>
@@ -280,7 +280,7 @@
     <script src="{{asset('assets/vendor/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="{{asset('assets/js/creative.js')}}"></script>
+    <script src="{{asset('assets/js/creative.min.js')}}"></script>
 
   </body>
 

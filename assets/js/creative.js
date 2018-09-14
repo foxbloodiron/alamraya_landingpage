@@ -7,10 +7,15 @@
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
-        $('html, body, .wrapper').animate({
+
+        $('.wrapper').animate({
           scrollTop: (target.offset().top - 56)
         }, 1000, "easeInOutExpo");
         return false;
+        // $('html, body').animate({
+        //   scrollTop: (target.offset().top - 56)
+        // }, 1000, "easeInOutExpo");
+        // return false;
       }
     }
   });
@@ -28,7 +33,7 @@
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
+    if ($(".wrapper").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
